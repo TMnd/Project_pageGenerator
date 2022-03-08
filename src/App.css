@@ -1,0 +1,34 @@
+body{
+    padding-top: 55px;
+}
+
+.footerRow2{
+    border-top: 1px solid black;
+    color: white;
+}
+
+.copyRightMessage{
+    padding-bottom: 30px;
+}
+
+.v-application--wrap{
+    display: contents !important;
+}
+
+.theme--light.v-card{
+    margin-left: 11px;
+}
+
+.Vue-Toastification__close-button:hover{
+    background-color: transparent !important;
+}
+
+
+@media (max-width: 978px) { 
+    .v-dialog{
+        width: 90% !important;
+    }
+    .aboutDialog{
+        overflow: auto;
+    }
+}

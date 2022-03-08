@@ -1,0 +1,82 @@
+.importDialog{
+    height: 250px !important;
+}
+
+.exportDialog{
+    height: 250px !important;
+}
+
+.informationDialog{
+    height: 60% !important;
+}
+
+
+.jsoneditor{
+    border: 1px solid black !important;
+    box-shadow: 0.5px 0.5px 10px black;
+}
+
+.v-icon{
+    align-items: center;
+    display: inline-flex;
+    font-feature-settings: "liga";
+    font-size: 24px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    position: relative;
+    text-indent: 0;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1), visibility 0s;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.v-sheet{
+    height: 55px !important;
+}
+.v-toolbar__content{
+    bottom: 4px;
+}
+
+.v-btn--icon:hover .v-icon{
+    color: white !important;
+}
+
+.informationModal_close:hover .v-btn__content{
+    color: white
+}
+
+.informationModal_header, .informationModal_close .v-btn__content{
+    color: white;
+}
+
+.jsoneditor-menu{
+    background-color: rgba(33, 37, 41) !important;
+    color: white !important;
+}
+
+.jsoneditor-menu button{
+    color: white !important;
+}
+
+.noBackgroundImage{
+    background-image: none !important;
+}
+
+.exportButton{
+    float: right;
+    background-color: rgb(0, 102, 153) !important;
+}
+
+@media (max-width: 978px) { 
+    .v-dialog{
+        width: 90% !important;
+    } 
+    .informationDialog{
+        height: 50% !important;
+    }
+
+}

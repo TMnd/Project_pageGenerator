@@ -1,0 +1,8 @@
+.listOfComponentsClass{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.fixIconsStyle { color: #434343 !important;  } 
+
+.fixIconsStyle:hover { color: black !important;}

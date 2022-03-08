@@ -1,0 +1,51 @@
+{
+    "author": "João Luís Amaral",
+    "resume": {
+        "href":"/files/Dummy_CV.txt",
+        "icon": {
+            "icon":"download",
+            "iconPrefix":"fas",
+            "iconSize": "1x"
+        }
+    },
+    "socialMedia":[
+        {
+          "href":"https://github.com/TMnd/",
+          "content":{
+            "icon":"github",
+            "iconPrefix":"fab",
+            "iconSize": "2x"
+          }
+        },
+        {
+          "href":"https://www.linkedin.com/",
+          "content":{
+            "icon":"linkedin",
+            "iconPrefix":"fab",
+            "iconSize": "2x"
+          }
+        },
+        {
+          "href":"https://www.researchgate.net/",
+          "content":{
+            "icon":"researchgate",
+            "iconPrefix":"fab",
+            "iconSize": "2x"
+          }
+        },
+        {
+          "href":"http://www.sapo.pt",
+          "content":{
+            "icon":"globe",
+            "iconPrefix":"fas",
+            "iconSize": "2x"
+          }
+        }
+    ],
+    "aboutInformation":{
+        "repositoryUrl": "http://www.google.pt",
+        "description": "This project allows the user to create a web page by configuring its structure using json coding data. All webpage components assessable in the information button above of the editor (presented in the editor toolbar) and in the example presented. The objective of this project was to help me to learn about Vue framework which led to the final form presented.\n As a learning/pet project, it can have bugs witch will be resolved eventually and is presented as is.",
+        "projectVersion": "1.0.0"
+    }
+
+}

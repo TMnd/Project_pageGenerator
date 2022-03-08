@@ -1,0 +1,466 @@
+{
+  "webSiteTitle": "My little cyber corner",
+  "webMenu": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Portfolio",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Blog",
+      "href": "#blog"
+    }
+  ],
+  "content": [
+    {
+      "componentType": "basicArea",
+      "componentTitle": "My little cyber corner",
+      "componentDesc": "My Vue project to create the generation engine",
+      "componentExtraConf":{
+        "isMajorTitle": true,
+        "isPagetitle": true
+      },
+      "content":[
+        {
+          "componentType": "splitDivHorizontal",
+          "componentTitle": "",
+          "componentDesc": "",
+          "content": [
+            {
+              "componentType": "image",
+              "componentExtraConf":{
+                "style":{
+                  "imageParentConfig":{ 
+                    "border": "0.3rem solid #006699",
+                    "width": "fit-content",
+                    "margin": "0 auto",
+                    "border-radius": "50%"
+                  },
+                  "imageConfig":{ 
+                    "border": "0.4rem solid #343a40",
+                    "border-radius": "50%",
+                    "object-fit": "cover",
+                    "object-position": "center"
+                  }
+                }
+              },
+              "content": {
+                "source": "johnDoe.jpg",
+                "alt": "Getting data from Google Drive",
+                "style": {
+                  "widht": 150,
+                  "height": 150
+                }
+              }
+            },
+            {
+              "componentType": "listOfComponents",
+              "componentTitle": "",
+              "componentExtraConf":{
+                "style": [
+                  {
+                    "target":"listOfComponents",
+                    "config":{ }
+                  }
+                ]
+              },
+              "content": [
+                {
+                  "componentType": "iconSymbol",
+                  "href":"https://github.com/TMnd/",
+                  "content":{
+                    "icon":"github",
+                    "iconPrefix":"fab",
+                    "iconSize": "2x"
+                  }
+                },
+                {
+                  "componentType": "iconSymbol",
+                  "href":"2href123",
+                  "content":{
+                    "icon":"linkedin",
+                    "iconPrefix":"fab",
+                    "iconSize": "2x"
+                  }
+                },
+                {
+                  "componentType": "iconSymbol",
+                  "href":"3href123",
+                  "content":{
+                    "icon":"researchgate",
+                    "iconPrefix":"fab",
+                    "iconSize": "2x"
+                  }
+                }
+              ]
+            },
+            {
+              "componentType": "clickButton",
+              "componentTitle": "Resume (CV)",
+              "componentExtraConf":{
+                "href":"/files/Dummy_CV.txt",
+                "icon": {
+                  "icon":"download",
+                  "iconPrefix":"fas",
+                  "iconSize": "1x"
+                }
+              },
+              "content": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "componentType": "basicArea",
+      "componentIdentifier": "portfolio",
+      "componentTitle": "Portfolio",
+      "componentDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "componentExtraConf":{
+        "isMajorTitle": false,
+        "isPagetitle": false
+      },
+      "content":[
+        {
+          "componentType": "soloArea",
+          "componentExtraConf":{
+            "style": {
+              "display": "flex",
+              "color": "white",
+              "padding": "20px",
+              "border-radius": "10px",
+              "background-color": "#434343",
+              "line-height": "1.4375",
+              "font-family": "Montserrat,sans-serif",
+              "width": "100%",
+              "flex-wrap": "wrap",
+              "align-items": "center",
+              "justify-content": "center",
+              "border": "0.4em solid #006699"
+            }
+          },
+          "content":[
+            {
+              "componentType": "card",
+              "componentTitle": "Projecto 1",
+              "componentDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+              "componentExtraConf":{
+                "style": {
+                  "border-radius": "10px",
+                  "background-color": "#006699",
+                  "width": "18rem",
+                  "text-align": "left"
+                }
+              },
+              "content": {
+                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+              }
+            },
+            {
+              "componentType": "card",
+              "componentTitle": "Projecto 2",
+              "componentDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+              "componentExtraConf":{
+                "style": {
+                  "border-radius": "10px",
+                  "background-color": "#006699",
+                  "width": "18rem",
+                  "text-align": "left"
+                }
+              },
+              "content": {
+                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+              }
+            },
+            {
+              "componentType": "card",
+              "componentTitle": "Projecto 3",
+              "componentDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+              "componentExtraConf":{
+                "style": {
+                  "border-radius": "10px",
+                  "background-color": "#006699",
+                  "width": "18rem",
+                  "text-align": "left"
+                }
+              },
+              "content": {
+                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+              }
+            },
+            {
+              "componentType": "card",
+              "componentTitle": "Projecto 4",
+              "componentDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+              "componentExtraConf":{
+                "style": {
+                  "border-radius": "10px",
+                  "background-color": "#006699",
+                  "width": "18rem",
+                  "text-align": "left"
+                }
+              },
+              "content": {
+                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "componentType": "basicArea",
+      "componentIdentifier": "about",
+      "componentTitle": "About",
+      "componentDesc": "",
+      "componentExtraConf":{},
+      "content":[
+        {
+          "componentType": "splitDivVertical",
+          "labelTitle": "",
+          "content": [
+            {
+              "componentType": "textArea",
+              "componentExtraConf":{
+                "style": [
+                  {
+                    "target":"aboutTextPresentation",
+                    "config":{ 
+                      "text-align": "justify",
+                      "text-justify": "inter-word",
+                      "font-size": "15px",
+                      "font-family": "Montserrat,sans-serif"
+                    }
+                  }
+                ]
+              },
+              "content": {
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.. https://7shb7.draftium.site/"
+              }
+            },
+            {
+              "componentType": "listOfComponents",
+              "componentTitle": "Skills",
+              "componentExtraConf":{
+                "style": [
+                  {
+                    "target":"skillList",
+                    "config":{ 
+                      "text-align": "left",
+                      "margin-left": "3em"
+                    }
+                  }
+                ]
+              },
+              "content": [
+                {
+                  "componentType": "clickButton",
+                  "componentTitle": "JavaScript",
+                  "componentExtraConf":{
+                    "href":"",
+                    "icon": {},
+                    "style": [
+                      {
+                        "target":"button_javascript",
+                        "config":{ 
+                          "margin-right": "10px",
+                          "border": "0.19em solid #006699",
+                          "color": "white",
+                          "background-color":"#006699",
+                          "border-radius": "50%"
+                        }
+                      }
+                    ]
+                  },
+                  "content": {}
+                },
+                {
+                  "componentType": "clickButton",
+                  "componentTitle": "Html",
+                  "componentExtraConf":{
+                    "href":"",
+                    "icon": {},
+                    "style": [
+                      {
+                        "target":"clickButton",
+                        "config":{ 
+                          "margin-right": "10px",
+                          "border": "0.19em solid #006699",
+                          "color": "white",
+                          "background-color":"#006699",
+                          "border-radius": "50%"
+                        }
+                      }
+                    ]
+                  },
+                  "content":{
+                  }
+                },
+                {
+                  "componentType": "clickButton",
+                  "componentTitle": "CSS",
+                  "componentExtraConf":{
+                    "href":"",
+                    "icon": {},
+                    "style": [
+                      {
+                        "target":"clickButton",
+                        "config":{ 
+                          "margin-right": "10px",
+                          "border": "0.19em solid #006699",
+                          "color": "white",
+                          "background-color":"#006699",
+                          "border-radius": "50%"
+                        }
+                      }
+                    ]
+                  },
+                  "content":{
+                  }
+                },
+                {
+                  "componentType": "clickButton",
+                  "componentTitle": "Java",
+                  "componentExtraConf":{
+                    "href":"",
+                    "icon": {},
+                    "style": [
+                      {
+                        "target":"clickButton",
+                        "config":{ 
+                          "margin-right": "10px",
+                          "border": "0.19em solid #006699",
+                          "color": "white",
+                          "background-color":"#006699",
+                          "border-radius": "50%"
+                        }
+                      }
+                    ]
+                  },
+                  "content":{
+                  }
+                },
+                {
+                  "componentType": "clickButton",
+                  "componentTitle": "Play",
+                  "componentExtraConf":{
+                    "href":"",
+                    "icon": {},
+                    "style": [
+                      {
+                        "target":"clickButton",
+                        "config":{ 
+                          "margin-right": "10px",
+                          "border": "0.19em solid #006699",
+                          "color": "white",
+                          "background-color":"#006699",
+                          "border-radius": "50%"
+                        }
+                      }
+                    ]
+                  },
+                  "content":{
+                  }
+                },
+                {
+                  "componentType": "clickButton",
+                  "componentTitle": "Linux",
+                  "componentExtraConf":{
+                    "href":"",
+                    "icon": {},
+                    "style": [
+                      {
+                        "target":"clickButton",
+                        "config":{ 
+                          "margin-right": "10px",
+                          "border": "0.19em solid #006699",
+                          "color": "white",
+                          "background-color":"#006699",
+                          "border-radius": "50%"
+                        }
+                      }
+                    ]
+                  },
+                  "content":{
+                  }
+                }
+              ]
+            },
+            {
+              "componentType": "tabSection",
+              "componentIdentifier": "tabSection",
+              "componentTitle": "PARA SALVAR!!!!",
+              "componentDesc": "Poderá não ser utilizado no futuro!!!!",
+              "componentExtraConf":{},
+              "content": [
+                {
+                  "title":"Allall",
+                  "identifier":"tab_all",
+                  "isActive":true,
+                  "content": {
+                    "componentType": "textArea",
+                    "componentIdentifier": "text1",
+                    "componentExtraConf":{
+                      "style": [
+                        {
+                          "target":"aboutTextPresentation2",
+                          "config":{ 
+                            "text-align": "justify",
+                            "text-justify": "inter-word",
+                            "font-size": "15px",
+                            "font-family": "Montserrat,sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    "content": {
+                      "text": "VUE STUFF"
+                    }
+                  }
+                },
+                {
+                  "title":"Vue.js",
+                  "identifier":"tab_vue",              
+                  "isActive":false,
+                  "content": {
+                    "componentType": "textArea",
+                    "componentIdentifier": "text2",
+                    "componentExtraConf":{
+                      "style": [
+                        {
+                          "target":"aboutTextPresentation3",
+                          "config":{ 
+                            "text-align": "justify",
+                            "text-justify": "inter-word",
+                            "font-size": "15px",
+                            "font-family": "Montserrat,sans-serif"
+                          }
+                        }
+                      ]
+                    },
+                    "content": {
+                      "text": "ola"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "componentType": "basicArea",
+      "componentIdentifier": "blog",
+      "componentTitle": "Blog",
+      "componentDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "componentExtraConf":{},
+      "content":[
+
+      ]
+    }
+  ]
+}

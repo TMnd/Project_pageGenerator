@@ -1,0 +1,13 @@
+.fixIconsStyle2{
+    color: white !important;
+}
+
+.footer-buttons{
+    margin-top: -6px;
+}
+
+.aboutDialog{
+    height: 390px !important;
+    width: 50% !important;
+    overflow: hidden;
+}

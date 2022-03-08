@@ -1,0 +1,17 @@
+ul#navMenu li {
+    display:inline;
+    margin: 5px 7.5px;
+    font-size: 15px;
+}
+
+ul#navMenu li a {
+    text-decoration: none;
+    color: inherit; 
+    line-height: 1.4375;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}

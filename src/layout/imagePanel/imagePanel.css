@@ -1,0 +1,28 @@
+/* #imageWrapper{
+    width: fit-content;
+    margin: 0 auto;
+} */
+
+/* .areaGradient img{
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ */
+/* parent div:
+
+element.style {
+    border: 0.3rem solid red;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+image:
+
+element.style {
+    border: 0.4rem solid #343a40;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+} */
