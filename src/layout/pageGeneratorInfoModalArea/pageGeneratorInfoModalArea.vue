@@ -3,7 +3,7 @@
         <h4>{{this.title}}</h4>
         <div class="row">
             <div class="col-sm-6">
-                <textarea v-model="this.exampleJson" name="modalTeste" id="modalTeste" cols="50" rows="10"></textarea>
+                <textarea v-model="this.exampleJson" class="form-control rounded-0" name="modalTeste" id="modalTeste" cols="50" rows="10"></textarea>
             </div>
             <div class="col-sm-6 text-center">
                 <span v-if="title=='Base config'">N/D</span>
