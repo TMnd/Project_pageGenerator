@@ -2,6 +2,7 @@
   <v-dialog
       v-model="this.dialog"
       @click:outside="closeModal()"
+      @keydown.esc="closeModal()"
       :content-class="className"
   >
       <v-card style="margin-left: 0">

@@ -18,17 +18,9 @@
           }
         },
         {
-          "href":"https://www.linkedin.com/",
+          "href":"https://www.linkedin.com/in/amaraljoao/",
           "content":{
             "icon":"linkedin",
-            "iconPrefix":"fab",
-            "iconSize": "2x"
-          }
-        },
-        {
-          "href":"https://www.researchgate.net/",
-          "content":{
-            "icon":"researchgate",
             "iconPrefix":"fab",
             "iconSize": "2x"
           }
@@ -43,7 +35,7 @@
         }
     ],
     "aboutInformation":{
-        "repositoryUrl": "http://www.google.pt",
+        "repositoryUrl": "https://github.com/TMnd/Project_pageGenerator",
         "description": "This project allows the user to create a web page by configuring its structure using json coding data. All webpage components assessable in the information button above of the editor (presented in the editor toolbar) and in the example presented. The objective of this project was to help me to learn about Vue framework which led to the final form presented.\n As a learning/pet project, it can have bugs witch will be resolved eventually and is presented as is.",
         "projectVersion": "1.0.0"
     }

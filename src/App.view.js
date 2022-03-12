@@ -16,7 +16,6 @@ export default {
     PageGeneratorHeader,
     PageGeneratorFooter
   },
-
   data: () => ({
     dados: Vue.prototype.$jsonObject,
     coreData: [],

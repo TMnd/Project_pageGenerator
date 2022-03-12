@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import ModalDialog from '@/components/modal/modal'
+import PageGeneratorInfoModalAreaView from '@/layout/pageGeneratorInfoModalArea/pageGeneratorInfoModalArea';
+import infoModalContent from '@/assets/dummyData/infoModalContent.json'
 
 export default {
   name: 'PageGeneratorPreview',
 
   components: {
-    ModalDialog
+    ModalDialog,
+    PageGeneratorInfoModalAreaView
   },
   props: {
     dados: Object,
@@ -22,7 +25,8 @@ export default {
       "indentation": 2,
       "search": true
     },
-    cont: 0
+    cont: 0,
+    infoData: {}
   }),
   mounted() {
 
@@ -32,7 +36,6 @@ export default {
     document.querySelector('.jsoneditor-transform').style.display = 'none';
     document.querySelector('.jsoneditor-repair').style.display = 'none';
     document.querySelector('.jsoneditor-sort').style.display = 'none';
-/*     document.querySelector('.jsoneditor-poweredBy').style.display = 'none'; //COLOCAR NO ABOUT */
     
     const iconsList = ['mdi-import','mdi-export','mdi-information-variant','mdi-arrow-right-bold'];
 
@@ -87,7 +90,11 @@ export default {
 
     setTimeout(() => {this.compile()}, 1500);
   },
+  created () {  },
   methods: {
+    getInfoModalcontent(input){
+      return JSON.stringify(infoModalContent[input], null, 2);
+    }, 
     onError() {
     },
     information(){

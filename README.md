@@ -64,7 +64,7 @@ Using Vue.js
                 border: 0.3rem solid red;
                 width: fit-content;
                 margin: 0 auto;
-                border-radius: 50%;er"
+                border-radius: 50%;"
             }
         },
         {

@@ -17,7 +17,8 @@ export default {
     props: {
         content:Array,
         componentTitle:String,
-        componentDesc:String
+        componentDesc:String,
+        isDemo:Boolean
     },
     methods: {
     },

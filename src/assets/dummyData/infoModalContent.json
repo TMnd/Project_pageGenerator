@@ -1,0 +1,175 @@
+{
+    "baseConfiguration": {
+        "webSiteTitle": "*Web site title*",
+        "webMenu": [
+            {
+            "label": "*Menu label 1*",
+            "href": "*Menu href 1*"
+            }
+        ],
+        "content": []
+    },
+    "basicArea": {
+        "componentType": "basicArea",
+        "componentIdentifier": "*DOM component ID //If is not specified, the id will be generated.*",
+        "componentTitle": "*Component title*",
+        "componentDesc": "*Component description*",
+        "componentExtraConf":{
+            "isMajorTitle": "true || false",
+            "isPagetitle": "true || false"
+        },
+        "content":[]
+    },
+    "splitDivByHorizontal": {
+        "componentType": "splitDivHorizontal",
+        "componentIdentifier": "*DOM component //ID If is not specified, the id will be generated.*",
+        "componentTitle": "*Component title*",
+        "componentDesc": "*Component description*",
+        "content": []
+    },
+    "splitDivByVertical":{
+        "componentType": "splitDivVertical",
+        "elementIdentifier": "*DOM component ID*",
+        "componentTitle": "*Component title*",
+        "componentDesc": "*Component description*",
+        "content": []
+    },
+    "images":{
+        "componentType": "image",
+        "componentExtraConf":{
+            "style":{
+                "imageParentConfig":{ 
+                    "border": "0.3rem solid #006699",
+                    "width": "fit-content",
+                    "margin": "0 auto",
+                    "border-radius": "50%"
+                },
+                "imageConfig":{ 
+                    "border": "0.4rem solid #343a40",
+                    "border-radius": "50%",
+                    "object-fit": "cover",
+                    "object-position": "center"
+                }
+            }
+        },
+        "content": {
+            "source": "johnDoe.jpg",
+            "alt": "Getting data from Google Drive",
+            "style": {
+            "widht": 150,
+            "height": 150
+            }
+        }
+    },
+    "listOfComponents": {
+        "componentType": "listOfComponents",
+        "componentTitle": "",
+        "componentExtraConf":{
+          "style": [
+            {
+              "target":"listOfComponents",
+              "config":{ }
+            }
+          ]
+        },
+        "content": [
+          {
+            "componentType": "iconSymbol",
+            "href":"https://github.com/TMnd/",
+            "content":{
+              "icon":"github",
+              "iconPrefix":"fab",
+              "iconSize": "2x"
+            }
+          },
+          {
+            "componentType": "iconSymbol",
+            "href":"2href123",
+            "content":{
+              "icon":"linkedin",
+              "iconPrefix":"fab",
+              "iconSize": "2x"
+            }
+          },
+          {
+            "componentType": "iconSymbol",
+            "href":"3href123",
+            "content":{
+              "icon":"researchgate",
+              "iconPrefix":"fab",
+              "iconSize": "2x"
+            }
+          }
+        ]
+    },
+    "button":{
+        "componentType": "button",
+        "elementIdentifier": "*DOM component ID*",
+        "componentTitle": "*Component title*",
+        "componentExtraConf":{
+            "href":"",
+            "icon": {},
+            "style": [
+              {
+                "target":"button_javascript",
+                "config":{ 
+                    "margin-right": "10px",
+                    "border": "0.19em solid #006699",
+                    "color": "white",
+                    "background-color":"#006699"
+                }
+              }
+            ]
+        },
+        "content": {}
+    },
+    "textArea":{
+        "componentType": "textArea",
+        "componentExtraConf": {
+            "style": [
+                {
+                    "config": {}
+                }
+            ]
+        },
+        "content": {
+            "text":"*Component Text*"
+        }
+    },
+    "tabsArea":{
+        "componentType": "tabSection",
+        "componentTitle": "*componentTitle*",
+        "componentDesc": "*componentDesc*",
+        "componentExtraConf":{},
+        "content": [
+            {
+                "title":"tab1",
+                "identifier":"tab1",
+                "isActive":true,
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            },
+            {
+                "title":"tab2",
+                "identifier":"tab2",              
+                "isActive":false,
+                "content": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+            }
+        ]
+    },
+    "card": {
+        "componentType": "card",
+        "componentTitle": "*componentTitle*",
+        "componentDesc": "`*componentDesc*",
+        "componentExtraConf":{
+          "style": {
+            "border-radius": "10px",
+            "background-color": "#006699",
+            "width": "18rem",
+            "text-align": "left"
+          }
+        },
+        "content": {
+          "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+        }
+    }
+}

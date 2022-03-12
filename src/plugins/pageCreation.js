@@ -61,6 +61,7 @@ export default {
           styleObject["componentDesc"] = (desc) ? desc : "";
           styleObject["content"] = inputContent;
           styleObject["extraConf"] = (extraConf) ? extraConf : {};
+          styleObject["isDemo"] = false;
 
           switch(componentType){
             case 'basicArea':

@@ -2,7 +2,7 @@
     <div>
         <v-jsoneditor v-model="json" :options="options" :plus="false" height="84vh" @error="onError"></v-jsoneditor>
 
-        <ModalDialog :dialog=importDialog className="importDialog">
+        <ModalDialog :dialog=importDialog className="importDialog" modalID="importDialog">
             <template v-slot:title>
                 Import Data
             </template>
@@ -21,7 +21,7 @@
             </template>
         </ModalDialog>
 
-        <ModalDialog :dialog=exportDialog className="exportDialog">
+        <ModalDialog :dialog=exportDialog className="exportDialog" modalID="exportDialog">
             <template v-slot:title>
                 Export
             </template>
@@ -38,7 +38,7 @@
             </template>
         </ModalDialog>
 
-        <ModalDialog :dialog=dialog className="informationDialog">
+        <ModalDialog :dialog=dialog className="informationDialog" modalID="informationDialog">
             <template v-slot:title>
                 Available Components
             </template>
@@ -46,11 +46,66 @@
             <template v-slot:body>
                <div>
                     <b-tabs content-class="mt-3">
-                        <b-tab title="Base config" active><p>I'm the first tab</p></b-tab>
-                        <b-tab title="basicArea"><p>I'm the second tab</p></b-tab>
-                        <b-tab title="splitDivHorizontal"><p>splitDivHorizontal</p></b-tab>
-                        <b-tab title="splitDivVertical"><p>splitDivVertical</p></b-tab>
-                        <b-tab title="image"><p>image</p></b-tab>
+                        <b-tab title="Base Configuration" active>
+                            <PageGeneratorInfoModalAreaView
+                                title="Base config"
+                                :exampleJson="getInfoModalcontent('baseConfiguration')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Basic Area">
+                            <PageGeneratorInfoModalAreaView
+                                title="basicArea"
+                                :exampleJson="getInfoModalcontent('basicArea')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Area horizontal split">
+                            <PageGeneratorInfoModalAreaView
+                                title="splitDivHorizontal"
+                                :exampleJson="getInfoModalcontent('splitDivByHorizontal')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Area vertical split">
+                            <PageGeneratorInfoModalAreaView
+                                title="splitDivVertical"
+                                :exampleJson="getInfoModalcontent('splitDivByVertical')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Image">
+                            <PageGeneratorInfoModalAreaView
+                                title="image"
+                                :exampleJson="getInfoModalcontent('images')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Listing elements">
+                            <PageGeneratorInfoModalAreaView
+                                title="listOfComponents"
+                                :exampleJson="getInfoModalcontent('listOfComponents')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Button">
+                            <PageGeneratorInfoModalAreaView
+                                title="button"
+                                :exampleJson="getInfoModalcontent('button')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Text Area">
+                            <PageGeneratorInfoModalAreaView
+                                title="textArea"
+                                :exampleJson="getInfoModalcontent('textArea')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Tab Area">
+                            <PageGeneratorInfoModalAreaView
+                                title="tab"
+                                :exampleJson="getInfoModalcontent('tabsArea')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
+                        <b-tab title="Card Area">
+                            <PageGeneratorInfoModalAreaView
+                                title="card"
+                                :exampleJson="getInfoModalcontent('card')"
+                            ></PageGeneratorInfoModalAreaView>
+                        </b-tab>
                     </b-tabs>
                 </div>
             </template>

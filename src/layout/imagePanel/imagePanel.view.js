@@ -12,7 +12,6 @@ export default {
         extraConf: Object
     },
     mounted() {
-
     },
     methods: {
         init(arg) { 

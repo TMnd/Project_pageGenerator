@@ -12,7 +12,8 @@ export default {
         componentTitle:String,
         componentIdentifier:String,
         componentDesc:String,
-        extraConf:Object
+        extraConf:Object,
+        isDemo:Boolean
     },
     methods: {
         
