@@ -156,7 +156,7 @@
                 }
               },
               "content": {
-                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+                "imageSrc": "https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg"
               }
             },
             {
@@ -172,7 +172,7 @@
                 }
               },
               "content": {
-                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+                "imageSrc": "https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg"
               }
             },
             {
@@ -188,7 +188,7 @@
                 }
               },
               "content": {
-                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+                "imageSrc": "https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg"
               }
             },
             {
@@ -204,7 +204,7 @@
                 }
               },
               "content": {
-                "imageSrc": "https://img.ibxk.com.br/2014/3/materias/71309878727181622-t640.jpg"
+                "imageSrc": "https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg"
               }
             }
           ]
@@ -391,8 +391,8 @@
             {
               "componentType": "tabSection",
               "componentIdentifier": "tabSection",
-              "componentTitle": "PARA SALVAR!!!!",
-              "componentDesc": "Poderá não ser utilizado no futuro!!!!",
+              "componentTitle": "TODO",
+              "componentDesc": "To add dynamic compoenent inside of the tab",
               "componentExtraConf":{},
               "content": [
                 {
